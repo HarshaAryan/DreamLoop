@@ -1,0 +1,75 @@
+# ============================================================
+# SECRETS & SENSITIVE FILES — NEVER COMMIT THESE
+# ============================================================
+GoogleService-Info.plist
+dreamloop_app/.env
+*.env
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================================================
+# Flutter / Dart
+# ============================================================
+dreamloop_app/.dart_tool/
+dreamloop_app/.flutter-plugins-dependencies
+dreamloop_app/.pub-cache/
+dreamloop_app/.pub/
+dreamloop_app/build/
+dreamloop_app/coverage/
+dreamloop_app/**/.last_build_id
+dreamloop_app/**/doc/api/
+dreamloop_app/app.*.symbols
+dreamloop_app/app.*.map.json
+dreamloop_app/build_log.txt
+
+# ============================================================
+# iOS / Xcode
+# ============================================================
+dreamloop_app/ios/Pods/
+dreamloop_app/ios/.symlinks/
+dreamloop_app/ios/Flutter/Generated.xcconfig
+dreamloop_app/ios/Flutter/flutter_export_environment.sh
+dreamloop_app/ios/Runner/GoogleService-Info.plist
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# ============================================================
+# Android
+# ============================================================
+dreamloop_app/android/app/debug/
+dreamloop_app/android/app/profile/
+dreamloop_app/android/app/release/
+dreamloop_app/android/.gradle/
+dreamloop_app/android/local.properties
+
+# ============================================================
+# IDEs
+# ============================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swx
+
+# ============================================================
+# Build artifacts (root-level)
+# ============================================================
+build/
+test_xattr_dir/
+*.resolved

@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "dreamloop-f1bc9",
+          "appId": "1:558363209301:ios:48e6756ff696397c426edc",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "dreamloop-f1bc9",
+          "appId": "1:558363209301:ios:b2c1389bb9b47adb426edc",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dreamloop-f1bc9",
+          "configurations": {
+            "android": "1:558363209301:android:a3d1b56b540794b5426edc",
+            "ios": "1:558363209301:ios:48e6756ff696397c426edc",
+            "macos": "1:558363209301:ios:b2c1389bb9b47adb426edc",
+            "web": "1:558363209301:web:5c055839ac997665426edc"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}
